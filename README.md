@@ -10,6 +10,10 @@
 2. pnpm install
 3. pnpm dev
 
+内置两个账户：\
+admin: 13641039885@163.com 11111111\
+user: 123@123.com 11111111
+
 **Notice:**
 1. If you get an error like this:\
 app-index.js:32 Warning: Extra attributes from the server: data-new-gr-c-s-check-loaded,data-gr-ext-installed at body at html at RedirectErrorBoundary.\
