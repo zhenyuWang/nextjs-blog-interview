@@ -10,9 +10,12 @@
 2. pnpm install
 3. pnpm dev
 
-内置两个账户：\
+Two built-in accounts：\
 admin: 13641039885@163.com 11111111\
 user: 123@123.com 11111111
+
+You need to log in to view the blog details. If you are not logged in, you will automatically jump to the login page.\
+The administrator account has permission to publish blogs
 
 **Notice:**
 1. If you get an error like this:\

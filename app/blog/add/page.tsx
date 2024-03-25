@@ -7,7 +7,7 @@ import { useTheme } from '@/context/theme-context'
 import NavBar from '@/components/NavBar/NavBar'
 import { useForm, Controller, SubmitHandler } from 'react-hook-form'
 import FormInput from '../../../components/Form/FormInput'
-import PersonIcon from '@mui/icons-material/Person'
+import FeedIcon from '@mui/icons-material/Feed'
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider'
 import { validationRules } from '../../../utils/form'
 import { DatePicker } from '@mui/x-date-pickers/DatePicker'
@@ -104,7 +104,7 @@ export default function CreateBlog() {
                   registerOptions={{
                     ...register('title', validationRules.blogTitle),
                   }}
-                  StartIcon={PersonIcon}
+                  StartIcon={FeedIcon}
                   errors={errors.title}
                 />
               </div>
